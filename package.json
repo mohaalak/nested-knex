@@ -1,6 +1,6 @@
 {
   "name": "nested-knex",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Get typed nested object for knex.js",
   "main": "index.js",
   "scripts": {
