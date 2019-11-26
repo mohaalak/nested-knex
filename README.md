@@ -1,7 +1,7 @@
 # Nested Knex
 
-Takes a knex.js query builder add select and return nested object with types using (NestHydration)[].
-idea for types and runtime comes from io-ts module
+Takes a knex.js query builder add select and return nested object with types using [NestHydration](https://github.com/CoursePark/NestHydrationJS#readme).
+idea for types and runtime comes from [io-ts](https://github.com/gcanti/io-ts) module
 
 # Idea
 
