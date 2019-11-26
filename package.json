@@ -44,5 +44,11 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "peerDependencies": {
+    "knex": "^0.20.2"
+  },
+  "dependencies": {
+    "nesthydrationjs": "^1.0.5"
+  }
 }
