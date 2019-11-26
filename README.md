@@ -7,9 +7,9 @@ idea for types and runtime comes from [io-ts](https://github.com/gcanti/io-ts) m
 
 I just wanted to get nested objects from knex.js, I did not like boilerplated ORMs.
 
-## Every Select should have it's own types
+## ORMs build you query
 
-one of the problems with ORMs is that you define your models and when it comes to relations you define them and connect all of them together but most of time you don't need to get all of the relationships. image a post model like this
+one of the problems with ORMs is that you define your models and when it comes to relations you define them and connect all of them together but most of time you don't need to get all of the relationships. consider a post model like this
 
 ```typescript
 @Entity()
@@ -36,11 +36,9 @@ class Author {
 ```
 
 and you use the generic function to get data so maybe something like this `Post.find({relations: ['author']})` then in another function you use `Post.find()` in the first it will populate the `post.author` but in the second one the `author` is null.
-the idea is that every select should have it's own type not a generic one.
 
-## Knex.js is a Query Builder
-
-also knex.js is just a query builder not an ORM that decide how to get data for you and make horrible mistakes.
+also knex.js is just a query builder, so you create your query and this library help you to get a nested object from it,
+but ORMs create complex sql queries to get data cause they are generic functions.
 
 ## Runtime Type Check
 
