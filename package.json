@@ -35,6 +35,7 @@
   "homepage": "https://github.com/mohaalak/nested-knex#readme",
   "devDependencies": {
     "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.14",
     "jest": "^24.9.0",
     "prettier": "^1.19.1",
     "ts-jest": "^24.2.0",
@@ -49,6 +50,7 @@
     "knex": "^0.20.2"
   },
   "dependencies": {
-    "nesthydrationjs": "^1.0.5"
+    "nesthydrationjs": "^1.0.5",
+    "knex": "^0.20.2"
   }
 }
