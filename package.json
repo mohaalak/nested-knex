@@ -2,7 +2,8 @@
   "name": "nested-knex",
   "version": "0.1.1",
   "description": "Get typed nested object for knex.js",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
