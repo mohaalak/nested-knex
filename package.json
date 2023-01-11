@@ -48,10 +48,10 @@
     "lib/**/*"
   ],
   "peerDependencies": {
-    "knex": "^0.20.2"
+    "knex": "^2.4.0"
   },
   "dependencies": {
     "nesthydrationjs": "^1.0.5",
-    "knex": "^0.20.2"
+    "knex": "^2.4.0"
   }
 }
